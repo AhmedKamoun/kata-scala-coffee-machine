@@ -5,7 +5,7 @@ import coffeemachine.commands.{Chocolate, Coffee, Command, Tea}
 /**
   * @author KAMOUN Ahmed
   */
-object InstructionTranslator {
+class InstructionTranslator {
 
   def getDrinkMakerCommand(command: Command, sugarQte: Int): String = {
 
